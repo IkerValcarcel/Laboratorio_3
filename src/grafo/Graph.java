@@ -52,7 +52,6 @@ public class Graph {
 	}
 	
 	public boolean estanConectados(String a1, String a2){
-		//pre: los URLs introducidos estan en la lista
 		boolean enc = false;
 		if (th.containsKey(a1) && th.containsKey(a2)) {
 			int pos1 = th.get(a1);
@@ -77,7 +76,6 @@ public class Graph {
 
 	}
 	public ArrayList<String> comoEstanConectados(String a1, String a2){
-		//pre: los URLs introducidos estan en la lista
 		boolean enc = false;
 		ArrayList<String> camino = new ArrayList<String>();
 		if (th.containsKey(a1) && th.containsKey(a2)) {
